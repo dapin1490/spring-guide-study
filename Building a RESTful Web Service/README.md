@@ -25,3 +25,11 @@ initializer: <https://start.spring.io/>
 ## 오류 해결
 - 환경변수에 설정된 자바 버전과 프로젝트에서 사용하는 자바 버전 불일치 문제: [[Spring Boot / Error] 빌드 시 "Execution failed for task ':compileJava'.> invalid source release: 11" 에러 발생](https://devlifetestcase.tistory.com/7)
 
+## cmd로 실행하기
+
+```shell
+$ cd C:\Users\dpgbu\Desktop\SAE\tool\github\spring-guide-study\Building a RESTful Web Service
+$ gradlew build
+$ java -jar build/libs/Building-a-RESTful-Web-Service-0.0.1-SNAPSHOT.jar
+$ curl localhost:8080/greeting
+```
